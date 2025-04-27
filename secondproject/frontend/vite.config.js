@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy: {
       '/jokes': {
-        target: 'http://localhost:3000',
+        target: 'https://jokes-backend-mqtr.onrender.com/',
       },
     },
   },
